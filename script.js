@@ -15,7 +15,6 @@ function sumar(num1, num2) {
     alert("El resultado de la suma es: " + suma);
 }
 
-
 function restar(num1, num2) {
     let resultado = num1 - num2;
     console.log(`La resta es: ${resultado}`);
