@@ -1,7 +1,7 @@
 calcular();
 function calcular() {
-    let num1 = parseInt(prompt("Ingrese el primer número:"));
-    let num2 = parseInt(prompt("Ingrese el segundo número:"));
+    let num1 = parseInt(prompt("Escribe el primer número:"));
+    let num2 = parseInt(prompt("Escribe el segundo número:"));
 
     sumar(num1, num2);
     restar(num1, num2);
@@ -12,26 +12,26 @@ function calcular() {
 function sumar(num1, num2) {
     let resultado = num1 + num2;
     console.log(`La suma es: ${resultado}`);
-    alert("El resultado de la suma es: " + suma);
+    alert("La solución de la suma es: " + suma);
 }
 
 
 function restar(num1, num2) {
     let resultado = num1 - num2;
     console.log(`La resta es: ${resultado}`);
-    alert("El resultado de la resta es: " + resta);
+    alert("La solución de la resta es: " + resta);
 }
 
 function multiplicar(num1, num2) {
     let resultado = num1 * num2;
     console.log(`La multiplicación es: ${resultado}`);
-    alert("El resultado de la multiplicación es: " + multiplicación);
+    alert("La solución de la multiplicación es: " + multiplicación);
 }
 
 
 function dividir(num1, num2) {
     let resultado = num1 / num2;
     console.log(`La división es: ${resultado}`);
-    alert("El resultado de la división es: " + división);
+    alert("La solución de la división es: " + división);
 
 }
