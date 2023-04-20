@@ -1,7 +1,7 @@
 calcular();
 function calcular() {
-    let num1 = parseInt(prompt("Ingrese el primer número:"));
-    let num2 = parseInt(prompt("Ingrese el segundo número:"));
+    let num1 = parseInt(prompt("Escribe aquí el primer número:"));
+    let num2 = parseInt(prompt("Escribe aquí el segundo número:"));
 
     sumar(num1, num2);
     restar(num1, num2);
